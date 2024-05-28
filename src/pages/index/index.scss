@@ -1,0 +1,52 @@
+@import '@/assets/css/base.scss';
+
+.temi-page {
+
+  .bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/img/rt.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000205;
+    opacity: 0.8;
+    position: absolute;
+    z-index: -2;
+  }
+  .map-png{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../assets/img/map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+  }
+  .title {
+    color: #EEB958;
+    //color: #ff9000;
+    font-size: vw(48);
+    text-align: center;
+    padding-top: vw(50);
+    font-weight: 900;
+    text-shadow: vw(0) vw(0)  vw(10) #010305;
+    position: relative;
+    z-index: 1;
+    line-height: vw(58);
+    letter-spacing: 8px;
+   .title_low
+   {
+     font-size: vw(32);
+     color: #fff;
+     letter-spacing: 4px;
+     font-style: italic;
+     //opacity: 0.9;
+   }
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+}

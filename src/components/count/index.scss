@@ -1,0 +1,78 @@
+@import '@/assets/css/base.scss';
+
+@font-face {
+  font-family: bebas;
+  src: url('../../assets/font/BebasNeue-Regular.ttf');//字体路径
+}
+
+.data_count {
+  width: vw(1440);
+  margin: 0 auto;
+  margin-top: vw(-238);
+  .count_content {
+    position: absolute;
+    top:vw(305);
+    left: vw(535);
+    width: vw(321);
+    height: auto;
+    h2 {
+      color: #fff;
+      text-align: center;
+      font-size: vw(30);
+      font-weight: 500;
+      text-shadow: 0 0 vw(30) #07193f;
+    }
+  .count {
+    width: vw(321);
+    height: vw(140);
+    background-image: url('../../assets/img/countbg.png');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //opacity:0.8;
+    span {
+      font-size: vw(60);
+      margin: 0;
+      color: #ff9000;
+      font-weight: 600;
+      font-family: bebas!important;
+      letter-spacing: vw(5);
+    }
+    .count_T {
+      text-transform:lowercase!important;
+      font-size: vw(50);
+      margin: 0;
+      color: #ff9000;
+      font-weight: 600;
+    }
+  }
+  }
+  .datashow {
+    width: vw(1404);
+    height: vw(68);
+    padding: vw(26) vw(60);
+    background-image: url('../../assets/img/datashow.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-content: center;
+    opacity: 0.9 !important;
+    padding-left: vw(80);
+    span:nth-child(2n+1) {
+      color: #fff;
+      padding-top: vw(13);
+      font-size: vw(18);
+      margin-right: vw(20);
+      font-weight: 500;
+    }
+    span:nth-child(2n) {
+      color: #ff9000;
+      padding-top: vw(8);
+      font-size: vw(30);
+      margin-right: vw(60);
+      font-weight: 900;
+      text-shadow: 0 0 vw(10) #ff9000;
+    }
+  }
+}
